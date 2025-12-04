@@ -25,6 +25,7 @@ To run the analyses, the recommended workflow is:
 4. Open and run the analysis notebooks located in the /jupyter-lab/ directory, ensuring that the necessary datasets are available in their respective folders.
 
 **Datasets and Folder Descriptions**
+
 /counts/ Raw counts generated during the ADSL project.
 
 /raw_scores/ Enrich2 outputs, including barcode-level scores.
