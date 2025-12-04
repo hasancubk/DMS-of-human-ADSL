@@ -1,0 +1,46 @@
+sample,value,exp
+High Exp.,3.62,qRT-PCR
+High Exp.,3.351,qRT-PCR
+High Exp.,3.159,qRT-PCR
+Low Exp.,1.057,qRT-PCR
+Low Exp.,1.02,qRT-PCR
+Low Exp.,0.927,qRT-PCR
+Control,0.008,qRT-PCR
+Control,0.006,qRT-PCR
+Control,0.009,qRT-PCR
+High Exp.,6194,GFP
+High Exp.,5880,GFP
+High Exp.,5758,GFP
+High Exp.,5791,GFP
+High Exp.,5520,GFP
+High Exp.,6099,GFP
+High Exp.,6132,GFP
+High Exp.,5677,GFP
+High Exp.,5993,GFP
+High Exp.,6151,GFP
+High Exp.,6470,GFP
+High Exp.,6057,GFP
+Low Exp.,1797,GFP
+Low Exp.,1768,GFP
+Low Exp.,1843,GFP
+Low Exp.,1705,GFP
+Low Exp.,1759,GFP
+Low Exp.,1855,GFP
+Low Exp.,2956,GFP
+Low Exp.,2773,GFP
+Low Exp.,3264,GFP
+Low Exp.,2820,GFP
+Low Exp.,2923,GFP
+Low Exp.,3277,GFP
+Control,0,GFP
+Control,752,GFP
+Control,889,GFP
+Control,0,GFP
+Control,676,GFP
+Control,0,GFP
+Control,759,GFP
+Control,738,GFP
+Control,899,GFP
+Control,743,GFP
+Control,760,GFP
+Control,734,GFP

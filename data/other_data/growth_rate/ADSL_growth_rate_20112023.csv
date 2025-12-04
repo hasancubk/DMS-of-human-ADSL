@@ -1,0 +1,19 @@
+strain,treatment,grate
+High Exp.,Dox-,0.359
+High Exp.,Dox-,0.354
+High Exp.,Dox-,0.358
+High Exp.,Dox+,0.355
+High Exp.,Dox+,0.347
+High Exp.,Dox+,0.352
+Low Exp.,Dox-,0.346
+Low Exp.,Dox-,0.346
+Low Exp.,Dox-,0.345
+Low Exp.,Dox+,0.254
+Low Exp.,Dox+,0.271
+Low Exp.,Dox+,0.253
+Control,Dox-,0.333
+Control,Dox-,0.336
+Control,Dox-,0.322
+Control,Dox+,0
+Control,Dox+,0
+Control,Dox+,0

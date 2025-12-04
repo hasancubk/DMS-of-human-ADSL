@@ -1,0 +1,18 @@
+sample,var_one,var_two,samp,saicar,Ei,Ei_%,low,low_%,high,high_%,reference_paper
+R396H/Y114H,R396H,Y114H,22,19,0.062094749,1.84283937,-0.002018,-0.1009,0.40451,14.98185185,unpublished
+G418A/Y114H*,G418A,Y114H,37.66666667,26.66666667,0.184198762,5.466625375,0.007982,0.3991,0.893721,33.10077778,unpublished
+R426H/Y114H*,R426H,Y114H,12.5,13,0.25067174,7.439401219,0.134812,6.7406,1.479351,54.79077778,Lethal fetal and early neonatal presentation of adenylosuccinate lyase deficiency: observation of 6 patients in 4 families
+E376D/Y114H,E376D,Y114H,8,10,0.816427589,24.22982503,,0,1.422264,52.67644444,Lethal fetal and early neonatal presentation of adenylosuccinate lyase deficiency: observation of 6 patients in 4 families
+R194C/R396C,R194C,R396C,16,,0.885409813,26.27706993,0.66721,33.3605,1.669278,61.82511111,Lethal fetal and early neonatal presentation of adenylosuccinate lyase deficiency: observation of 6 patients in 4 families
+A3V/R337*,A3V,R337*,28,41,1.25827256,37.34283895,0.879306,43.9653,1.143861,42.36522222,"Human adenylosuccinate lyase (ADSL), cloning and characterization of full-length cDNA and its isoform, gene structure and molecular basis for ADSL deficiency in six patients"
+R426H/R426H*,R426H,R426H,23.5,22,0.439694281,13.04918604,0.44176,22.088,2.489062,92.18748148,"Human adenylosuccinate lyase (ADSL), cloning and characterization of full-length cDNA and its isoform, gene structure and molecular basis for ADSL deficiency in six patients / Clinical, biochemical and molecular genetic correlations in adenylosuccinate lyase deficiency"
+R190Q/Y114H*,R190Q,Y114H,38,46,0.784812335,23.2915519,0.588507,29.42535,1.636914,60.62644444,"Human adenylosuccinate lyase (ADSL), cloning and characterization of full-length cDNA and its isoform, gene structure and molecular basis for ADSL deficiency in six patients"
+R426H/D430N,R426H,D430N,24,40,1.282870965,38.07286701,1.001897,50.09485,2.516874,93.21755556,"Human adenylosuccinate lyase (ADSL), cloning and characterization of full-length cDNA and its isoform, gene structure and molecular basis for ADSL deficiency in six patients"
+A2V/S395R,A2V,S395R,19,26,0.573479839,17.01965532,0.435781,21.78905,1.759883,65.18085185,"Clinical, biochemical and molecular genetic correlations in adenylosuccinate lyase deficiency"
+M26L/R426H,M26L,R426H,25,22,0.698494389,20.72981984,0.679307,33.96535,2.324709,86.10033333,"Clinical, biochemical and molecular genetic correlations in adenylosuccinate lyase deficiency"
+R303C/R303C*,R303C,R303C,1.5,28.5,0.17745128,5.266374538,0.213898,10.6949,0.85476,31.65777778,"Clinical, biochemical and molecular genetic correlations in adenylosuccinate lyase deficiency"
+R426H/T450S,R426H,T450S,17,15,0.353274785,10.48444019,0.305756,15.2878,1.80727,66.93592593,"Clinical, biochemical and molecular genetic correlations in adenylosuccinate lyase deficiency"
+wt/wt,wt,wt,100,100,3.369515,100,2,100,2.7,100,***
+c.-49T>C/R426H*,49T-C,R426H,33,33,0.570842,16.9413699,0.47088,23.544,1.582031,58.59374074,"Mutation of a Nuclear Respiratory Factor 2 Binding Site in the 5 Untranslated Region of the ADSL Gene in Three Patients with Adenylosuccinate Lyase Deficiency / Clinical, biochemical and molecular genetic correlations in adenylosuccinate lyase deficiency"
+c.-49T>C/S447P,49T-C,S447P,50,46,1.909865,56.68070924,1.219734,60.9867,1.838206,68.0817037,Mutation of a Nuclear Respiratory Factor 2 Binding Site in the 5 Untranslated Region of the ADSL Gene in Three Patients with Adenylosuccinate Lyase Deficiency
+c.-49T>C/P318L,49T-C,P318L,28,10,0.443662,13.16693946,0.199142,9.9571,0.549821,20.36374074,Mutation of a Nuclear Respiratory Factor 2 Binding Site in the 5 Untranslated Region of the ADSL Gene in Three Patients with Adenylosuccinate Lyase Deficiency
