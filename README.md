@@ -7,10 +7,15 @@ A yeast complementation assay in Saccharomyces cerevisiae was used to quantify v
 
 **Expression Conditions**
 Variants were assayed under four conditions to capture a broad range of functional behavior:
+
     1. ADSL Low Expression (Dox+) – Low expression of human ADSL (clinically most informative)
+    
     2. ADSL Low Expression (Dox–) – Low expression with co-expression of yeast ADE13.
+    
     3. ADSL High Expression (Dox+) – High expression of human ADSL.
+    
     4. ADSL High Expression (Dox–) – High expression with co-expression of yeast ADE13.
+    
 
 **Getting Started**
 To run the analyses, the recommended workflow is:
@@ -21,10 +26,15 @@ To run the analyses, the recommended workflow is:
 
 **Datasets and Folder Descriptions**
 /counts/ Raw counts generated during the ADSL project.
+
 /raw_scores/ Enrich2 outputs, including barcode-level scores.
+
 /processed_scores/ Variant-level scores calculated from median-averaged barcode scores.
+
 /other_data/ Additional datasets required for generating plots and analyses (e.g., clinical, structural data).
+
 /jupyter-lab/ Jupyter notebooks used to analyze, process, and visualize ADSL data.
+
 
 **Workflow Overview**
  ....
