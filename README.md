@@ -34,8 +34,7 @@ To run the analyses, the recommended workflow is:
 - `figures/` - Generated figures
 - `docs/` - Additional documentation
 
-**Note:** The raw_counts files and the barcode-variant tables are **not included in this repository due to file size limits**, but they can be accessed upon request. Please contact the authors if you need access to these datasets.
-
+**Note:** some files may **not be included in this repository due to file size limits**, but they can be accessed upon request.
 Please contact:
 📧 hasan.cubk@hotmail.com
 for any inquiries about the project or data.
