@@ -1,0 +1,2 @@
+1. Install enrich2.
+2. Run: "enrich_cmd count2score.json WLS wt --no-plots"
