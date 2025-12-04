@@ -1,0 +1,58 @@
+{
+  "conditions": [
+    {
+      "name": "condition", 
+      "selections": [
+        {
+          "libraries": [
+            {
+              "barcodes": {}, 
+              "fastq": {
+                "filters": {
+                  "max N": 0, 
+                  "min quality": 20
+                }, 
+                "reads": "path/read0.fastq", 
+                "reverse": false
+              }, 
+              "name": "T0", 
+              "report filtered reads": false, 
+              "timepoint": 0
+            }, 
+            {
+              "barcodes": {}, 
+              "fastq": {
+                "filters": {
+                  "max N": 0, 
+                  "min quality": 20
+                }, 
+                "reads": "path/read1.fastq", 
+                "reverse": false
+              }, 
+              "name": "T1", 
+              "report filtered reads": false, 
+              "timepoint": 1
+            }, 
+            {
+              "barcodes": {}, 
+              "fastq": {
+                "filters": {
+                  "max N": 0, 
+                  "min quality": 20
+                }, 
+                "reads": "path/read1.fastq", 
+                "reverse": false
+              }, 
+              "name": "T2", 
+              "report filtered reads": false, 
+              "timepoint": 2
+            }
+          ], 
+          "name": "selection"
+        }
+      ]
+    }
+  ], 
+  "name": "experiment", 
+  "output directory": "path/output/"
+}
