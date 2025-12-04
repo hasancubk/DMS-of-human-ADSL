@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="500" height="250" alt="text49030" src="https://github.com/user-attachments/assets/35bd82ba-1950-4118-8d11-76e56acc288e" />
+  <img width="400" height="200" alt="text49030" src="https://github.com/user-attachments/assets/35bd82ba-1950-4118-8d11-76e56acc288e" />
 </p>
 
 
@@ -18,6 +18,9 @@ Variants were assayed under two conditions to capture a broad range of functiona
 - ADSL High Expression (Dox+) – High expression of human ADSL.
 - ADSL High Expression (Dox–) – High expression with co-expression of yeast ADE13, control experiment.
     
+**_Research Paper:_** Çubuk H, Plech M, Aslanzadeh V, Zikanova M, Skopova V, Kmoch S, Shen Y, Marsh JA, Kudla G. Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects. bioRxiv 2025.08.15.670494. doi: https://doi.org/10.1101/2025.08.15.670494
+**_MaveDB:_** urn:mavedb:00001257-a 
+**_SRA:_** xxx
 
 **Getting Started**
 To run the analyses, the recommended workflow is:
@@ -33,6 +36,7 @@ To run the analyses, the recommended workflow is:
     /processed_scores/ Variant-level scores calculated from median-averaged barcode scores.
     /other_data/ Additional datasets required for generating plots and analyses (e.g., clinical, structural and modelling data).
     /jupyter-lab/ Jupyter notebooks used to analyze, process, and visualize ADSL data.
-    
-**Workflow Overview**
- ....
+
+Please contact:
+📧 hasan.cubk@hotmail.com
+for any inquiries about the project or data.
