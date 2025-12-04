@@ -31,8 +31,7 @@ To run the analyses, the recommended workflow is:
 ## Folder Structure
 - `data/` - Raw and processed datasets
 - `notebooks/` - Jupyter notebooks for analysis and visualization
-- `scripts/` - Standalone scripts for data processing
-- `results/` - Figures, tables, and intermediate results
+- `figures/` - Generated figures
 - `docs/` - Additional documentation
 
 Please contact:
