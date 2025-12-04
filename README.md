@@ -3,13 +3,6 @@
   <img width="400" height="200" alt="text49030" src="https://github.com/user-attachments/assets/35bd82ba-1950-4118-8d11-76e56acc288e" />
 </p>
 
-## Folder Structure
-- `data/` - Raw and processed datasets
-- `notebooks/` - Jupyter notebooks for analysis and visualization
-- `scripts/` - Standalone scripts for data processing
-- `results/` - Figures, tables, and intermediate results
-- `docs/` - Additional documentation
-
 # Deep Mutational Scanning of human ADSL gene
 This repository is an archive for datasets, analysis scripts, and Jupyter notebooks used in the deep mutational scanning (DMS) of human ADSL (adenylosuccinate lyase) project. We provided to support transparency, reproducibility, and reuse of all associated data and code.
 
@@ -35,13 +28,12 @@ To run the analyses, the recommended workflow is:
 3. Launch either JupyterLab or Jupyter Notebook.
 4. Open and run the analysis notebooks located in the /jupyter-lab/ directory, ensuring that the necessary datasets are available in their respective folders.
 
-**Datasets and Folder Descriptions**
-
-    /counts/ Raw counts generated during the ADSL project.
-    /raw_scores/ Enrich2 outputs, including barcode-level scores.
-    /processed_scores/ Variant-level scores calculated from median-averaged barcode scores.
-    /other_data/ Additional datasets required for generating plots and analyses (e.g., clinical, structural and modelling data).
-    /jupyter-lab/ Jupyter notebooks used to analyze, process, and visualize ADSL data.
+## Folder Structure
+- `data/` - Raw and processed datasets
+- `notebooks/` - Jupyter notebooks for analysis and visualization
+- `scripts/` - Standalone scripts for data processing
+- `results/` - Figures, tables, and intermediate results
+- `docs/` - Additional documentation
 
 Please contact:
 📧 hasan.cubk@hotmail.com
