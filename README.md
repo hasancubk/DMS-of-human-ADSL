@@ -1,5 +1,5 @@
 # DMS-of-human-ADSL
-This repository serves as a centralized archive for all datasets, analysis scripts, and Jupyter notebooks used in the deep mutational scanning (DMS) project of human ADSL (adenylosuccinate lyase). The goal is to support transparency, reproducibility, and reuse of all associated data and code.
+This repository serves as an archive for all datasets, analysis scripts, and Jupyter notebooks used in the deep mutational scanning (DMS) project of human ADSL (adenylosuccinate lyase). The goal is to support transparency, reproducibility, and reuse of all associated data and code.
 
 **Project Overview**
 This project characterizes the functional impact of coding variation in the human ADSL gene, which is associated with the autosomal recessive metabolic disorder ADSL deficiency. Using a comprehensive deep mutational scanning approach, thousands of missense, nonsense, and synonymous variants were measured for functional activity.
