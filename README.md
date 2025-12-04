@@ -2,6 +2,7 @@
 <p align="center">
   <img width="400" height="200" alt="text49030" src="https://github.com/user-attachments/assets/35bd82ba-1950-4118-8d11-76e56acc288e" />
 </p>
+
 ## Folder Structure
 - `data/` - Raw and processed datasets
 - `notebooks/` - Jupyter notebooks for analysis and visualization
