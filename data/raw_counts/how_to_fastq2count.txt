@@ -1,9 +1,0 @@
-1. Install enrich2.
-2. Run: "enrich_cmd fastq2count.json counts wt --no-plots"
-Note: you may need to trim and or reverse complement fastq files before count process.
-To trim: trimmomatic SE read.fastq trim_read.fastq CROP:30
-To reverse: seqkit seq -r -p -t DNA trim_read.fastq > reverse_trim_read.fastq
-
-More details for Enrich2: 
-https://github.com/FowlerLab/Enrich2
-Çubuk, H., Jin, X., Phipson, B. et al. Variant scoring tools for deep mutational scanning. Mol Syst Biol 21, 1293–1305 (2025). https://doi.org/10.1038/s44320-025-00137-x
