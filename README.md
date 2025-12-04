@@ -2,7 +2,12 @@
 <p align="center">
   <img width="400" height="200" alt="text49030" src="https://github.com/user-attachments/assets/35bd82ba-1950-4118-8d11-76e56acc288e" />
 </p>
-
+## Folder Structure
+- `data/` - Raw and processed datasets
+- `notebooks/` - Jupyter notebooks for analysis and visualization
+- `scripts/` - Standalone scripts for data processing
+- `results/` - Figures, tables, and intermediate results
+- `docs/` - Additional documentation
 
 # Deep Mutational Scanning of human ADSL gene
 This repository is an archive for datasets, analysis scripts, and Jupyter notebooks used in the deep mutational scanning (DMS) of human ADSL (adenylosuccinate lyase) project. We provided to support transparency, reproducibility, and reuse of all associated data and code.
