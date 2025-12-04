@@ -1,5 +1,7 @@
 
-<img width="450" height="250" alt="text49030" src="https://github.com/user-attachments/assets/35bd82ba-1950-4118-8d11-76e56acc288e" />
+<p align="center">
+  <img width="500" height="250" alt="text49030" src="https://github.com/user-attachments/assets/35bd82ba-1950-4118-8d11-76e56acc288e" />
+</p>
 
 
 # Deep Mutational Scanning of human ADSL gene
