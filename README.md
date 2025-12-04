@@ -1,19 +1,84 @@
 # DMS-of-human-ADSL
+This repository serves as a centralized archive for all datasets, analysis scripts, and Jupyter notebooks used in the deep mutational scanning (DMS) project of human ADSL (adenylosuccinate lyase). The goal is to support transparency, reproducibility, and reuse of all associated data and code.
 
-This repository serves as a centralized archive for all relevant datasets and analysis scripts to support transparency and reproducibility in ADSL project.
+**Project Overview**
+This project characterizes the functional impact of coding variation in the human ADSL gene, which is associated with the autosomal recessive metabolic disorder ADSL deficiency. Using a comprehensive deep mutational scanning approach, thousands of missense, nonsense, and synonymous variants were measured for functional activity.
+A yeast complementation assay in Saccharomyces cerevisiae was used to quantify variant effects. Human ADSL replaces the yeast homolog ADE13, and variant function is inferred by measuring growth fitness, which reflects enzymatic activity in vivo.
 
-/counts/  
-    Raw counts generated during the ADSL project.
-    
-/raw_scores/  
-    Enrich2 outputs, including barcode-level scores.
+**Expression Conditions**
+Variants were assayed under four conditions to capture a broad range of functional behavior:
+    1. ADSL Low Expression (Dox+) – Low expression of human ADSL (clinically most informative)
+    2. ADSL Low Expression (Dox–) – Low expression with co-expression of yeast ADE13.
+    3. ADSL High Expression (Dox+) – High expression of human ADSL.
+    4. ADSL High Expression (Dox–) – High expression with co-expression of yeast ADE13.
 
-/processed_scores/  
-    Variant-level scores calculated from median-averaged barcode scores.
+**Getting Started**
+To run the analyses, the recommended workflow is:
+1. Install Anaconda to manage Python environments.
+2. Create a dedicated conda environment and install the required Python packages (e.g., pandas, numpy, matplotlib, seaborn, scipy, jupyterlab, etc.).
+3. Launch either JupyterLab or Jupyter Notebook.
+4. Open and run the analysis notebooks located in the /jupyter-lab/ directory, ensuring that the necessary datasets are available in their respective folders.
 
-/other_data/  
-    Additional datasets required for generating plots and analyses 
-    (e.g., clinical, structural data).
+**Datasets and Folder Descriptions**
+/counts/ Raw counts generated during the ADSL project.
+/raw_scores/ Enrich2 outputs, including barcode-level scores.
+/processed_scores/ Variant-level scores calculated from median-averaged barcode scores.
+/other_data/ Additional datasets required for generating plots and analyses (e.g., clinical, structural data).
+/jupyter-lab/ Jupyter notebooks used to analyze, process, and visualize ADSL data.
 
-/jupyter-lab/  
-    Jupyter notebooks used to analyze, process, and visualize ADSL data.
+**Workflow Overview**
+                ┌─────────────────────────────────────┐
+                │   Variant Library Construction      │
+                │  - Saturation mutagenesis           │
+                │  - Human ADSL coding variants       │
+                │  - Barcode assignment (PacBio)      │
+                └─────────────────────────────────────┘
+                                │
+                                ▼
+                ┌─────────────────────────────────────┐
+                │      Yeast Complementation Assay    │
+                │  - ADSL expressed in yTHC-ADE13     │
+                │  - Growth for 5 days (± doxycycline)│
+                │  - Sampling every 12 hours          │
+                └─────────────────────────────────────┘
+                                │
+                                ▼
+                ┌─────────────────────────────────────┐
+                │     Sequencing of Timecourse        │
+                │      - Illumina NextSeq 2000        │
+                │      - Barcode frequency counts     │
+                └─────────────────────────────────────┘
+                                │
+                                ▼
+                ┌─────────────────────────────────────┐
+                │     Initial Data Processing          │
+                │      - Raw counts → /counts/         │
+                │      - Barcode-level scores          │
+                │        via Enrich2 → /raw_scores/    │
+                └─────────────────────────────────────┘
+                                │
+                                ▼
+                ┌─────────────────────────────────────┐
+                │     Variant Scoring Pipeline         │
+                │      - Median across barcodes        │
+                │      - IQR-based confidence          │
+                │      - Output → /processed_scores/   │
+                └─────────────────────────────────────┘
+                                │
+                                ▼
+                ┌─────────────────────────────────────┐
+                │   Downstream Analyses & Visualization│
+                │   - Structural interpretation        │
+                │   - ClinVar/HGMD comparisons         │
+                │   - Fitness/activity modeling        │
+                │   - Figures & summary plots          │
+                │   (Jupyter notebooks → /jupyter-lab/)│
+                └─────────────────────────────────────┘
+                                │
+                                ▼
+                ┌─────────────────────────────────────┐
+                │        Final Outputs                 │
+                │   - Variant effect maps              │
+                │   - Clinically relevant annotations  │
+                │   - Summary datasets and figures     │
+                └─────────────────────────────────────┘
